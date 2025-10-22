@@ -1,42 +1,47 @@
 // src/data/plants.js
-const plants = [
+// 6 example plants. Use unique `id` values.
+export default [
     {
-      name: "Peace Lily",
-      price: 12,
-      image: "https://images.unsplash.com/photo-1617196034018-cb44f5110124",
-      category: "Indoor"
-    },
-    {
+      id: "p1",
       name: "Snake Plant",
-      price: 15,
-      image: "https://images.unsplash.com/photo-1604480132419-1e9f65b8e9b1",
-      category: "Indoor"
+      price: 14.99,
+      category: "Indoor",
+      image: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=1200&q=80&auto=format&fit=crop"
     },
     {
-      name: "Money Plant",
-      price: 10,
-      image: "https://images.unsplash.com/photo-1616628188467-c76bc2f7a2d2",
-      category: "Indoor"
+      id: "p2",
+      name: "Fiddle Leaf Fig",
+      price: 49.99,
+      category: "Indoor",
+      image: "https://images.unsplash.com/photo-1524594154909-2f27b8cf6c2b?w=1200&q=80&auto=format&fit=crop"
     },
     {
+      id: "p3",
       name: "Aloe Vera",
-      price: 8,
-      image: "https://images.unsplash.com/photo-1601439678777-9025d5a56b19",
-      category: "Medicinal"
+      price: 9.99,
+      category: "Succulent",
+      image: "https://images.unsplash.com/photo-1501004318641-a8f2e8c0efd3?w=1200&q=80&auto=format&fit=crop"
     },
     {
-      name: "Jasmine",
-      price: 20,
-      image: "https://images.unsplash.com/photo-1617300638280-bd3ff9f5e090",
-      category: "Flowering"
+      id: "p4",
+      name: "Pothos",
+      price: 12.99,
+      category: "Hanging",
+      image: "https://images.unsplash.com/photo-1524594154909-cd4b7b9dbf48?w=1200&q=80&auto=format&fit=crop"
     },
     {
-      name: "Rose Plant",
-      price: 18,
-      image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93",
-      category: "Flowering"
+      id: "p5",
+      name: "ZZ Plant",
+      price: 19.99,
+      category: "Indoor",
+      image: "https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?w=1200&q=80&auto=format&fit=crop"
+    },
+    {
+      id: "p6",
+      name: "String of Pearls",
+      price: 11.99,
+      category: "Succulent",
+      image: "https://images.unsplash.com/photo-1524594154909-bd1c7a3f0a9d?w=1200&q=80&auto=format&fit=crop"
     }
   ];
-  
-  export default plants;
   

@@ -1,0 +1,65 @@
+/* Header.css - basic styles for Header.jsx */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background: linear-gradient(90deg,#2e7d32,#66bb6a);
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  }
+  
+  .header .logo {
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .header nav {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+  }
+  
+  .header a {
+    color: #fff;
+    text-decoration: none;
+    transition: opacity .15s ease;
+  }
+  
+  .header a:hover {
+    opacity: 0.9;
+  }
+  
+  /* cart badge */
+  .header .cart-badge {
+    display: inline-block;
+    min-width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 999px;
+    background: #d32f2f;
+    color: #fff;
+    font-size: 0.85rem;
+    padding: 0 6px;
+    margin-left: 8px;
+  }
+  
+  /* smaller screens */
+  @media (max-width: 520px) {
+    .header {
+      padding: 10px 12px;
+    }
+    .header .logo {
+      font-size: 1.05rem;
+    }
+    .header nav {
+      gap: 12px;
+    }
+  }
+  
